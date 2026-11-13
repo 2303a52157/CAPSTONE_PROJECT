@@ -3,18 +3,11 @@ uvicorn[standard]==0.30.6
 sqlalchemy==2.0.35
 python-dotenv==1.0.1
 requests==2.32.3
-pydantic==2.11.7
-
-# Python 3.14-compatible scientific stack. These versions have wheels for the
-# current runtime and match the model retraining flow used in the project.
-pandas==3.1.1
+pandas==2.2.3
 numpy==2.5.4
-scikit-learn==1.9.1
+pydantic==2.9.2
+scikit-learn==1.9.0
 xgboost==3.4.1
 joblib==1.6.0
 scipy==1.18.1
-
-# Only needed when DATABASE_URL points at Postgres. Skip it on Windows because a
-# local SQLite default is used for the project and psycopg2-binary releases are
-# not needed for the default deployment path.
-psycopg2-binary==2.9.10; platform_system != "Windows"
+psycopg2-binary==2.9.10

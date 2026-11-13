@@ -10,7 +10,7 @@ services:
     healthCheckPath: /health
     envVars:
       - key: PYTHON_VERSION
-        value: 3.14.2
+        value: 3.13.5
       - key: CORS_ORIGINS
         sync: false        # you'll be asked: your frontend URL, e.g. https://saferoute-web.onrender.com
       - key: OWM_API_KEY
