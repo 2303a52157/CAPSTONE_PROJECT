@@ -1,9 +1,9 @@
 # SafeRoute Backend API
 
 FastAPI backend for the SafeRoute road accident risk prediction platform (Warangal).
-Runs the tuned XGBoost model (retrained with current library versions for
-compatibility with modern Python/scikit-learn installs) on the exact
-`cleaned_accidents.csv` (5000 records, 53 columns) it was trained on.
+Runs the tuned XGBoost model on the exact `cleaned_accidents.csv` (5000 records,
+53 columns) it was trained on using a Python 3.13+/3.14-compatible dependency
+stack.
 
 ## Setup (VS Code)
 
